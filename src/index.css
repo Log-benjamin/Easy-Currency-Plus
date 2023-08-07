@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+body {
+  background-color: #3262a8;
+}
+
+* {
+  font-family: lato, sans-serif;
+}
+
+/* Styling for the Navigation section  */
+.nav-section {
+  display: flex;
+  justify-content: space-between;
+  background-color: #274d82;
+}
+
+.disp-date {
+  width: 25%;
+  display: flex;
+  color: white;
+  margin: 1.5rem 0 1rem 1%;
+}
+
+.disp-date h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.back-logo {
+  margin-right: 5%;
+}
+
+.micandsetting {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  text-decoration: none;
+}
+
+.micandsetting li {
+  margin-right: 2rem;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: white;
+}
+
+.micandsetting li.active {
+  padding: 10px;
+  background-color: #b38e1f;
+  color: white;
+}
+
+/* Styling for the Navigation section  */
+
+/* Styling tfor the Home Section  */
+.homeImage {
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+.image-home {
+  width: 40%;
+}
+
+/* Styling tfor the Home Section  */
