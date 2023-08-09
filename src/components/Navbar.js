@@ -13,7 +13,6 @@ export default function Navbar() {
           </h3>
         </div>
         <ul className="micandsetting">
-          <CustomeLink to="/">Home</CustomeLink>
           <CustomeLink to="/micsearch"><i className="fa-solid fa-microphone-lines fa-lg" /></CustomeLink>
           <CustomeLink to="/setting"><i className="fa-solid fa-gear fa-lg" /></CustomeLink>
         </ul>
