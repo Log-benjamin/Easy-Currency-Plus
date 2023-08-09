@@ -58,13 +58,166 @@ a {
 /* Styling for the Navigation section  */
 
 /* Styling tfor the Home Section  */
-.homeImage {
-  margin-top: 2rem;
-  margin-left: 2rem;
+.homeTop-container {
+  display: flex;
+  margin: 2rem;
 }
 
 .image-home {
-  width: 40%;
+  width: 50%;
+  margin-right: 2%;
+}
+
+.currency-Container {
+  width: 100%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.currency-Container form {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.currency-Container form input {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  width: 50%;
+  margin-right: 1rem;
+  font-size: 1.3rem;
+  border-radius: 0.5rem;
+}
+
+.currency-Container form button {
+  width: 7rem;
+  font-size: 1.3rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: #3f5471;
+  color: azure;
+}
+
+.conv-Gra-Rat,
+.Avg-His {
+  display: flex;
+  color: antiquewhite;
+  text-align: center;
+}
+
+.calcImg,
+.graphImg,
+.ratesImg {
+  width: 30%;
+}
+
+.monthlyImg,
+.currHistoryImg,
+.tipsImg {
+  width: 30%;
+  height: 70px;
+}
+
+.facaret-one {
+  color: antiquewhite;
+  font-size: 5rem;
+}
+
+.facaret-two {
+  color: rgb(148, 127, 56);
+  font-size: 5rem;
+}
+
+.facaret-three {
+  color: rgb(113, 179, 47);
+  font-size: 5rem;
+}
+
+.facaret-four {
+  color: rgb(101, 52, 145);
+  font-size: 5rem;
+}
+
+.facaret-five {
+  color: rgb(57, 188, 118);
+  font-size: 5rem;
+}
+
+.facaret-six {
+  color: rgb(40, 172, 159);
+  font-size: 5rem;
+}
+
+.conv-Gra-Rat div,
+.Avg-His div {
+  background-color: #3f5471;
+  margin-right: 2%;
+  margin-bottom: 4%;
+  width: 50%;
+  height: 200px;
+  cursor: pointer;
+}
+
+.conv-Gra-Rat div:hover,
+.Avg-His div:hover {
+  background-color: rgb(108, 108, 81);
+  width: 60%;
+
+  .fa-caret-down {
+    color: #3262a8;
+  }
+}
+
+.currency-Container form button:hover {
+  background-color: rgb(58, 117, 99);
 }
 
 /* Styling tfor the Home Section  */
+
+/* Styling for the Symbols Currency Section  */
+.Symbols-Container {
+  background-color: rgb(81, 81, 75);
+  margin: 2rem 15%;
+  padding-top: 1rem;
+  opacity: 0.9;
+  border-radius: 1rem;
+  height: 800px;
+  overflow-y: scroll;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.base-curr {
+  text-align: center;
+  font-size: 3rem;
+  color: bisque;
+}
+
+.uro-ul {
+  list-style: none;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.uro-ul .detail-li {
+  text-align: center;
+  background-color: #86b3f3;
+  margin-bottom: 1rem;
+  margin-left: 27%;
+  width: 45%;
+  font-size: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 10px;
+}
+
+.symbole-code {
+  color: greenyellow;
+}
+
+.Symbols-Container::-webkit-scrollbar {
+  display: none;
+}
+
+/* Styling for the Latest Symbols Currency Section  */
