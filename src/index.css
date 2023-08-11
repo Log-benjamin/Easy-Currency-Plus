@@ -15,16 +15,27 @@ body {
   background-color: #274d82;
 }
 
-.disp-date {
-  width: 25%;
+.disp-date ul {
+  width: 100%;
   display: flex;
   color: white;
-  margin: 1.5rem 0 1rem 1%;
+  margin: 1.5rem 0 1.5rem 0;
+  padding: 0 0 0 1.5rem;
+  list-style: none;
+}
+
+.micandsetting li {
+  margin-right: 2rem;
+}
+
+.disp-date ul li {
+  margin-top: 5px;
 }
 
 .disp-date h3 {
   margin: 0;
-  padding: 0;
+  padding: 0 0 0 0.5rem;
+  font-size: 1.3rem;
 }
 
 .back-logo {
@@ -39,10 +50,6 @@ body {
   text-decoration: none;
 }
 
-.micandsetting li {
-  margin-right: 2rem;
-}
-
 a {
   text-decoration: none;
   font-size: 1.1rem;
@@ -55,48 +62,28 @@ a {
   color: white;
 }
 
+.disp-date li.active {
+  .fa-circle-chevron-left {
+    color: #b38e1f;
+  }
+}
+
 /* Styling for the Navigation section  */
 
 /* Styling tfor the Home Section  */
 .homeTop-container {
   display: flex;
-  margin: 2rem;
+  margin: 1rem 2rem;
 }
 
 .image-home {
-  width: 50%;
-  margin-right: 2%;
+  display: none;
 }
 
 .currency-Container {
   width: 100%;
   margin-top: 5%;
   margin-bottom: 5%;
-}
-
-.currency-Container form {
-  margin-bottom: 2rem;
-  text-align: center;
-}
-
-.currency-Container form input {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  padding-left: 0.5rem;
-  width: 50%;
-  margin-right: 1rem;
-  font-size: 1.3rem;
-  border-radius: 0.5rem;
-}
-
-.currency-Container form button {
-  width: 7rem;
-  font-size: 1.3rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  border-radius: 0.5rem;
-  background-color: #3f5471;
-  color: azure;
 }
 
 .conv-Gra-Rat,
@@ -109,7 +96,8 @@ a {
 .calcImg,
 .graphImg,
 .ratesImg {
-  width: 30%;
+  width: 40%;
+  height: 75px;
 }
 
 .monthlyImg,
@@ -159,6 +147,35 @@ a {
   cursor: pointer;
 }
 
+.homeSearchForm {
+  margin-bottom: 2rem;
+  text-align: left;
+  margin-left: 2%;
+  display: flex;
+
+  /* flex-direction: column; */
+}
+
+.homeSearchForm input {
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  padding-left: 0.5rem;
+  width: 50%;
+  margin-right: 1rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+}
+
+.homeSearchForm button {
+  width: 5rem;
+  font-size: 0.8rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: #3f5471;
+  color: azure;
+}
+
 .conv-Gra-Rat div:hover,
 .Avg-His div:hover {
   background-color: rgb(108, 108, 81);
@@ -169,6 +186,11 @@ a {
   }
 }
 
+.homeSearchForm button:hover {
+  background-color: rgb(25, 199, 141);
+  color: black;
+}
+
 .currency-Container form button:hover {
   background-color: rgb(58, 117, 99);
 }
@@ -176,37 +198,24 @@ a {
 /* Styling tfor the Home Section  */
 
 /* Styling for the Symbols Currency Section  */
-.Symbols-Container {
-  background-color: rgb(81, 81, 75);
-  margin: 2rem 15%;
-  padding-top: 1rem;
-  opacity: 0.9;
-  border-radius: 1rem;
-  height: 800px;
-  overflow-y: scroll;
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
-}
-
 .base-curr {
   text-align: center;
-  font-size: 3rem;
+  font-size: 2rem;
   color: bisque;
 }
 
 .uro-ul {
-  list-style: none;
-  text-align: center;
-  margin-top: 2rem;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .uro-ul .detail-li {
-  text-align: center;
   background-color: #86b3f3;
   margin-bottom: 1rem;
-  margin-left: 27%;
   width: 45%;
-  font-size: 1.5rem;
+  height: 6rem;
+  margin-right: 1rem;
+  font-size: 1.2rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
   border-radius: 10px;
@@ -216,8 +225,45 @@ a {
   color: greenyellow;
 }
 
-.Symbols-Container::-webkit-scrollbar {
+.Symbols-Container::-webkit-scrollbar,
+.latest-container ul::-webkit-scrollbar,
+.EU-VAT-Container .eu-vat-ul::-webkit-scrollbar {
   display: none;
 }
 
 /* Styling for the Latest Symbols Currency Section  */
+@media screen and (min-width: 768px) {
+  .disp-date h3 {
+    font-size: 1.5rem;
+  }
+
+  .image-home {
+    width: 40%;
+    margin-right: 2%;
+    display: block;
+  }
+
+  .calcImg,
+  .graphImg,
+  .ratesImg {
+    width: 30%;
+  }
+
+  .homeSearchForm input {
+    width: 20%;
+  }
+
+  .homeSearchForm button {
+    width: 6rem;
+    font-size: 1rem;
+  }
+
+  .base-curr {
+    font-size: 3rem;
+  }
+
+  .uro-ul .detail-li {
+    width: 22%;
+    height: 8rem;
+  }
+}

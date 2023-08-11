@@ -1,0 +1,141 @@
+/* Money Transfer Tips */
+.moneytipContainer {
+  background-color: #3f5471;
+  margin-top: 3rem;
+  width: 90%;
+  border-radius: 2rem;
+  height: 100%;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 5%;
+}
+
+.moneytipContainer h2 {
+  color: aquamarine;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.firstrow {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.currexch101 {
+  width: 90%;
+  background-color: #86b3f3;
+  display: flex;
+  margin-left: 4%;
+  padding-left: 0.5rem;
+  border: 1px solid rgb(157, 153, 153);
+  margin-bottom: 2rem;
+}
+
+.currexch101 h3 {
+  color: greenyellow;
+}
+
+.currexch101 p {
+  width: 100%;
+}
+
+.currexch101 img {
+  width: 40%;
+}
+
+.Fraudprev {
+  width: 90%;
+  margin-left: 5%;
+  background-color: #86b3f3;
+}
+
+.Fraudprev img {
+  width: 75%;
+  text-align: center;
+  margin-top: 1rem;
+  margin-left: 3rem;
+}
+
+.Fraudprev h3 {
+  color: greenyellow;
+  text-align: center;
+}
+
+.Fraudprev p {
+  padding: 0 1rem;
+}
+
+.secondrow {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.secondrow .fraudScams {
+  display: flex;
+  background-color: #86b3f3;
+  margin-left: 5%;
+  margin-right: 4%;
+  padding-left: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.secondrow .fraudScams h3,
+.secondrow .fivetips h3 {
+  color: greenyellow;
+  text-align: center;
+}
+
+.secondrow .fivetips {
+  display: flex;
+  background-color: #86b3f3;
+  margin-left: 4%;
+  padding-left: 0.5rem;
+  margin-right: 5%;
+}
+
+.secondrow img {
+  width: 40%;
+}
+
+.secondrow .currexch101,
+.secondrow .Fraudprev {
+  width: 45%;
+}
+
+.thirdrow .whyFluc {
+  display: flex;
+  width: 90%;
+}
+
+/* Money Transfer Tips */
+@media screen and (min-width: 768px) {
+  .firstrow {
+    flex-direction: row;
+  }
+
+  .currexch101 {
+    width: 60%;
+    display: flex;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 2%;
+    margin-bottom: 0;
+  }
+
+  .Fraudprev {
+    width: 30%;
+    margin-left: 0;
+    background-color: #86b3f3;
+  }
+
+  .secondrow {
+    flex-direction: row;
+  }
+
+  .thirdrow {
+    display: flex;
+    flex-direction: row;
+  }
+}

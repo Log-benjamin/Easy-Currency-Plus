@@ -7,10 +7,14 @@ export default function Navbar() {
     <header>
       <nav className="nav-section">
         <div className="disp-date">
-          <span className="back-logo"><i className="fa-solid fa-circle-chevron-left fa-lg" /></span>
-          <h3>
-            {date}
-          </h3>
+          <ul>
+            <CustomeLink to="/">
+              <i className="fa-solid fa-circle-chevron-left fa-xl" />
+            </CustomeLink>
+            <h3>
+              {date}
+            </h3>
+          </ul>
         </div>
         <ul className="micandsetting">
           <CustomeLink to="/micsearch"><i className="fa-solid fa-microphone-lines fa-lg" /></CustomeLink>
