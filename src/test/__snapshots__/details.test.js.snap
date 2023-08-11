@@ -1,0 +1,484 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Countries renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <a
+        href="/details/undefined"
+      >
+        <div
+          class="topcontainer"
+        >
+          <div
+            class="latestcontainer"
+          >
+            <h2>
+              Latest Currency Rate - 1
+               
+            </h2>
+            <ul />
+          </div>
+          <div
+            class="curconvform"
+          >
+            <form>
+              <h2
+                class="currh2"
+              >
+                Currency Converter
+              </h2>
+              <input
+                id="input-amount"
+                placeholder="$ Amount ..."
+                value=""
+              />
+              <input
+                id="input-to-currency"
+                placeholder="To ..."
+                value=""
+              />
+              <div>
+                <button
+                  type="button"
+                >
+                  Convert
+                </button>
+              </div>
+            </form>
+            <div
+              class="convertedresult"
+            >
+              <p
+                class="excharatevalue"
+              >
+                Rate
+                  
+                 - 
+              </p>
+              <p>
+                 
+                <span />
+                 
+                =
+              </p>
+              <p>
+                 
+                <span />
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="topcontainer"
+        >
+          <div
+            class="EUVATContainer"
+          >
+            <h2>
+              EU VAT Information
+            </h2>
+            <ul
+              class="euvatul"
+            />
+          </div>
+          <div
+            class="historycontainer"
+          >
+            <h2>
+              Historical Rate
+            </h2>
+            <form>
+              <input
+                placeholder="2023-08-11"
+                value=""
+              />
+              <div
+                class="btn2"
+              >
+                <button
+                  type="button"
+                >
+                   SEARCH 
+                </button>
+              </div>
+            </form>
+            <p
+              class="descrip"
+            >
+              1
+               
+               
+              rate in
+               - 
+               
+            </p>
+            <ul />
+          </div>
+        </div>
+        <div
+          class="moneytipContainer"
+        >
+          <h2>
+            $$$ Money Transfer & Currency Tips $$$
+          </h2>
+          <div
+            class="firstrow"
+          >
+            <div
+              class="currexch101"
+            >
+              <div>
+                <h3>
+                  Currency Exchange 101
+                </h3>
+                <p>
+                  Before you send a money transfer or exchange your foreign currency, read this basic introduction to currency exchange.This easy-to-read infographic includes information on the foreign exchange market, currency pairs, buy and sell rates, as well as foreign exchange costs.
+                </p>
+              </div>
+              <img
+                alt="img1"
+                src="currencyexchange101.png"
+              />
+            </div>
+            <div
+              class="Fraudprev"
+            >
+              <img
+                alt="img2"
+                src="fraud_prevention.png"
+              />
+              <h3>
+                Fraud Prevention
+              </h3>
+              <p>
+                The best defense against theft and fraud is knowledge. Learn how you can protectyourself against the scammers.
+              </p>
+            </div>
+          </div>
+          <div
+            class="secondrow"
+          >
+            <div
+              class="fraudScams"
+            >
+              <div>
+                <h3>
+                  Identifying Types of Fraud/Scams
+                </h3>
+                <p>
+                  Criminals are always coming up with new and innovative ways to trick you out of your money. Learn about some of the scams that are out there and how to watch out for them!
+                </p>
+              </div>
+              <img
+                alt="img3"
+                src="identifying_fraud.png"
+              />
+            </div>
+            <div
+              class="fivetips"
+            >
+              <div>
+                <h3>
+                  5 Tips for Currency Exchange
+                </h3>
+                <p>
+                  Avoid the pitfalls of exchanging foreign currency. These five easy tips can help save you money and time on money transfers and currency transactions.
+                </p>
+              </div>
+              <img
+                alt="img2"
+                src="exchange_tips.png"
+              />
+            </div>
+          </div>
+          <div
+            class="thirdrow"
+          >
+            <div
+              class="whyFluc"
+            >
+              <div>
+                <h3>
+                  Why Do Currencies Fluctuate?
+                </h3>
+                <p>
+                  Find out what factors cause currency rates to fluctuate. This article covers monetary policies, inflation rates, and political and economic conditions.
+                </p>
+              </div>
+              <img
+                alt="img5"
+                src="currencies_fluctuate.png"
+              />
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </body>,
+  "container": <div>
+    <a
+      href="/details/undefined"
+    >
+      <div
+        class="topcontainer"
+      >
+        <div
+          class="latestcontainer"
+        >
+          <h2>
+            Latest Currency Rate - 1
+             
+          </h2>
+          <ul />
+        </div>
+        <div
+          class="curconvform"
+        >
+          <form>
+            <h2
+              class="currh2"
+            >
+              Currency Converter
+            </h2>
+            <input
+              id="input-amount"
+              placeholder="$ Amount ..."
+              value=""
+            />
+            <input
+              id="input-to-currency"
+              placeholder="To ..."
+              value=""
+            />
+            <div>
+              <button
+                type="button"
+              >
+                Convert
+              </button>
+            </div>
+          </form>
+          <div
+            class="convertedresult"
+          >
+            <p
+              class="excharatevalue"
+            >
+              Rate
+                
+               - 
+            </p>
+            <p>
+               
+              <span />
+               
+              =
+            </p>
+            <p>
+               
+              <span />
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="topcontainer"
+      >
+        <div
+          class="EUVATContainer"
+        >
+          <h2>
+            EU VAT Information
+          </h2>
+          <ul
+            class="euvatul"
+          />
+        </div>
+        <div
+          class="historycontainer"
+        >
+          <h2>
+            Historical Rate
+          </h2>
+          <form>
+            <input
+              placeholder="2023-08-11"
+              value=""
+            />
+            <div
+              class="btn2"
+            >
+              <button
+                type="button"
+              >
+                 SEARCH 
+              </button>
+            </div>
+          </form>
+          <p
+            class="descrip"
+          >
+            1
+             
+             
+            rate in
+             - 
+             
+          </p>
+          <ul />
+        </div>
+      </div>
+      <div
+        class="moneytipContainer"
+      >
+        <h2>
+          $$$ Money Transfer & Currency Tips $$$
+        </h2>
+        <div
+          class="firstrow"
+        >
+          <div
+            class="currexch101"
+          >
+            <div>
+              <h3>
+                Currency Exchange 101
+              </h3>
+              <p>
+                Before you send a money transfer or exchange your foreign currency, read this basic introduction to currency exchange.This easy-to-read infographic includes information on the foreign exchange market, currency pairs, buy and sell rates, as well as foreign exchange costs.
+              </p>
+            </div>
+            <img
+              alt="img1"
+              src="currencyexchange101.png"
+            />
+          </div>
+          <div
+            class="Fraudprev"
+          >
+            <img
+              alt="img2"
+              src="fraud_prevention.png"
+            />
+            <h3>
+              Fraud Prevention
+            </h3>
+            <p>
+              The best defense against theft and fraud is knowledge. Learn how you can protectyourself against the scammers.
+            </p>
+          </div>
+        </div>
+        <div
+          class="secondrow"
+        >
+          <div
+            class="fraudScams"
+          >
+            <div>
+              <h3>
+                Identifying Types of Fraud/Scams
+              </h3>
+              <p>
+                Criminals are always coming up with new and innovative ways to trick you out of your money. Learn about some of the scams that are out there and how to watch out for them!
+              </p>
+            </div>
+            <img
+              alt="img3"
+              src="identifying_fraud.png"
+            />
+          </div>
+          <div
+            class="fivetips"
+          >
+            <div>
+              <h3>
+                5 Tips for Currency Exchange
+              </h3>
+              <p>
+                Avoid the pitfalls of exchanging foreign currency. These five easy tips can help save you money and time on money transfers and currency transactions.
+              </p>
+            </div>
+            <img
+              alt="img2"
+              src="exchange_tips.png"
+            />
+          </div>
+        </div>
+        <div
+          class="thirdrow"
+        >
+          <div
+            class="whyFluc"
+          >
+            <div>
+              <h3>
+                Why Do Currencies Fluctuate?
+              </h3>
+              <p>
+                Find out what factors cause currency rates to fluctuate. This article covers monetary policies, inflation rates, and political and economic conditions.
+              </p>
+            </div>
+            <img
+              alt="img5"
+              src="currencies_fluctuate.png"
+            />
+          </div>
+        </div>
+      </div>
+    </a>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
