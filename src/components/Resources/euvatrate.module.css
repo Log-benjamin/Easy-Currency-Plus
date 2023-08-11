@@ -1,0 +1,48 @@
+/* VAT Styling  */
+.EUVATContainer {
+  background-color: #3f5471;
+  margin-top: 2rem;
+  width: 90%;
+  border-radius: 2rem;
+  height: 30rem;
+  margin-left: 3%;
+}
+
+.EUVATContainer h2 {
+  text-align: center;
+}
+
+.EUVATContainer .euvatul {
+  height: 370px;
+  overflow-y: scroll;
+  list-style: none;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.detailEUVAT ul {
+  list-style: none;
+  margin: 3%;
+  width: 70%;
+  background-color: #86b3f3;
+  padding: 1rem;
+  text-align: center;
+}
+
+.detailEUVAT ul li {
+  margin-bottom: 1rem;
+  color: black;
+}
+
+.detailEUVAT ul li span {
+  color: aquamarine;
+  font-size: 1.4rem;
+}
+
+/* VAT Styling  */
+@media screen and (min-width: 768px) {
+  .EUVATContainer {
+    width: 40%;
+    margin-left: 5%;
+  }
+}

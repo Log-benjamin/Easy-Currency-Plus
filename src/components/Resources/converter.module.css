@@ -1,0 +1,60 @@
+
+/* curreny converter Styling */
+.curconvform {
+  background-color: #3f5471;
+  margin-top: 2rem;
+  width: 90%;
+  border-radius: 2rem;
+  height: 30rem;
+  margin-left: 3%;
+}
+
+.curconvform input {
+  padding: 0.75rem 1rem;
+  width: 75%;
+  font-size: 1.2rem;
+  margin: 0 5% 1rem 9%;
+  border-radius: 6px;
+  outline: none;
+}
+
+.curconvform div {
+  text-align: end;
+  margin-right: 8%;
+  margin-top: 1rem;
+}
+
+.curconvform button {
+  padding: 0.75rem 1.5rem;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  color: white;
+  background-color: #2067d1;
+}
+
+.currh2 {
+  text-align: center;
+}
+
+.convertedresult p {
+  text-align: left;
+  margin-left: 3rem;
+  font-size: 1.3rem;
+}
+
+.excharatevalue {
+  text-align: center;
+  color: aquamarine;
+}
+
+.convertedresult p span {
+  color: aquamarine;
+}
+
+/* curreny converter Styling */
+@media screen and (min-width: 768px) {
+  .curconvform {
+    width: 40%;
+    margin-left: 5%;
+  }
+}
