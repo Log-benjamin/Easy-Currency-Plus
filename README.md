@@ -81,7 +81,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://log-benjamin.github.io/Xplore/dist/)
+- [Live Demo Link](https://ea-y-currency.onrender.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
